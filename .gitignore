@@ -1,0 +1,35 @@
+# ---- Data (too large for git; download / regenerate locally — see data/README.md) ----
+data/raw/
+data/fishing/
+data/N2000/
+data/*.csv
+data/*.parquet
+
+# ---- Generated interactive heatmaps (regenerate from notebooks/02_fishing_heatmaps.ipynb)
+# The lightweight sample map is kept on purpose.
+docs/fishing_heatmap_*.html
+!docs/fishing_heatmap_2025_sample.html
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- Environment & secrets ----
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
